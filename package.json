@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel-build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Plamen Dimitrov",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel-bundler": "^1.12.5"
   }
 }
