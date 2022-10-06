@@ -1,7 +1,7 @@
-import View from './View.js';
+import view from './view.js';
 import icons from 'url:../../img/icons.svg'; //Parcel 2
 
-class previewView extends View {
+class previewView extends view {
   _parentElement = '';
 
   _generateMarkup() {

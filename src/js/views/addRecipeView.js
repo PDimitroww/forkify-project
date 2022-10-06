@@ -1,7 +1,7 @@
-import View from './View.js';
+import view from './view.js';
 import icons from 'url:../../img/icons.svg'; //Parcel 2
 
-class addRecipeView extends View {
+class addRecipeView extends view {
   _parentElement = document.querySelector('.upload');
   _message = 'Recipe was successfully uploaded';
 

@@ -3,7 +3,7 @@ import fracty from 'fracty';
 // import icons from '../img/icons.svg' // Parcel 1
 import icons from 'url:../../img/icons.svg'; //Parcel 2
 
-class RecipeView extends View {
+class RecipeView extends view {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'We could not find that recipe.Please try another one !';
   _message = '';
