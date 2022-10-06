@@ -1,5 +1,4 @@
 import icons from 'url:../../img/icons.svg'; //Parcel 2
-import recipeView from './recipeView';
 
 //Exporting immediately because we are going to use it as a parent element only
 export default class View {

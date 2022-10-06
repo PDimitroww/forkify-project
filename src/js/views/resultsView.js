@@ -1,7 +1,5 @@
-import View from './view.js';
 import previewView from './previewView.js';
-import icons from 'url:../../img/icons.svg'; //Parcel 2
-import bookmarksView from './bookmarksView.js';
+import View from './view.js';
 
 class ResultsView extends View {
   _parentElement = document.querySelector('.results');
